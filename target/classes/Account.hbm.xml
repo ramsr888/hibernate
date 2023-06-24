@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="com.rao.program1.entity.Account" >
+		<id name="accountNo" column="account_no" />
+		<property name="accountNm" column="account_holder_nm" />
+		<property name="accountType" column="account_type" />
+		<property name="ifscCode" column="ifsc_code" />
+		<property name="balance" column="balance" />
+	</class>
+</hibernate-mapping>
